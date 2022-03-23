@@ -1,0 +1,9 @@
+<!-- interpolação, {{ variavel }} -->
+<app-titulo [titulo]="titulo"></app-titulo>
+
+<ul>
+  <!-- diretiva que gera uma variavel, e depois exibi ou lista todos os dados !-->
+  <li *ngFor="let professor of professores">
+    {{ professor }}
+  </li>
+</ul>
