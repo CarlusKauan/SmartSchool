@@ -4,6 +4,7 @@
 <ul>
   <!-- diretiva que gera uma variavel, e depois exibi ou lista todos os dados !-->
   <li *ngFor="let professor of professores">
-    {{ professor }}
+    <h2>{{ professor.nome }} </h2>
+    <p>{{ professor.disciplina }}</p>
   </li>
 </ul>
